@@ -1,17 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 
 public class SetPokeToFingerAttachPoint : MonoBehaviour
 {
     public Transform PokeAttachPoint;
 
-    private XRPokeInteractor _xrPokeInteractor;
+    private UnityEngine.XR.Interaction.Toolkit.Interactors.XRPokeInteractor _xrPokeInteractor;
 
     void Start()
     {
-        _xrPokeInteractor = transform.parent.parent.GetComponentInChildren<XRPokeInteractor>();
+        _xrPokeInteractor = transform.parent.parent.GetComponentInChildren<UnityEngine.XR.Interaction.Toolkit.Interactors.XRPokeInteractor>();
         SetPokeAttachPoint();
     }
 
