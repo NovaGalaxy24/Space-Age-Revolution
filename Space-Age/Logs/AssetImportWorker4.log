@@ -348,3 +348,96 @@ AssetImportParameters requested are different than current active one (requested
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 345.015737 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(90aa1d4a892c17b4f878182ddb165309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples using Guid(90aa1d4a892c17b4f878182ddb165309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a46c5b6c094c3bee6e57e04034f319') in 0.003762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.394977 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(7e90a0eae652f124693da1f39b6b480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(7e90a0eae652f124693da1f39b6b480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c988cd17921dc283951b9665704c9ab2') in 0.000697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.516281 seconds.
+  path: Assets/Scenes/1 Start Scene.unity
+  artifactKey: Guid(5aa2d906c33ed5e4798c8940df29dd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1 Start Scene.unity using Guid(5aa2d906c33ed5e4798c8940df29dd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0979ee1493341c579ed0c1bc072a27fa') in 0.000784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.829008 seconds.
+  path: Assets/Scenes/MainTLRoom.unity
+  artifactKey: Guid(441caf9af10f38b4a81d02403f8cea74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainTLRoom.unity using Guid(441caf9af10f38b4a81d02403f8cea74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9baa2fb785b96c3fba0dd90308c90f') in 0.000741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.030935 seconds.
+  path: Assets/Scenes/FirstStage.unity
+  artifactKey: Guid(649f938017397d24fba1d515e8afd835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FirstStage.unity using Guid(649f938017397d24fba1d515e8afd835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee304b5fe724233f56d42e48ea09d50') in 0.000706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.693966 seconds.
+  path: Assets/Scenes/SpaceShuttleLaunch.unity
+  artifactKey: Guid(b385cafedb80531478555fe9faaf197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SpaceShuttleLaunch.unity using Guid(b385cafedb80531478555fe9faaf197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a40c230ea42db4a58d28551b5b17a2e') in 0.000674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1590.362553 seconds.
+  path: Assets/Bugs
+  artifactKey: Guid(931285c88f419f84e96209fe9ce80536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs using Guid(931285c88f419f84e96209fe9ce80536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5daa62cb8fea43b17070b1ce36972c') in 0.000983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.061826 seconds.
+  path: Assets/Bugs/BB-Bug.fbx
+  artifactKey: Guid(b1a3929cc99e929408bddba3107f5d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/BB-Bug.fbx using Guid(b1a3929cc99e929408bddba3107f5d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ddba1e72bef58b5983b1af1f8c8951') in 0.584211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 261
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Bugs/BB-Suzie.fbx
+  artifactKey: Guid(e317a2e3f0f45ed498bbccd5eff04516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/BB-Suzie.fbx using Guid(e317a2e3f0f45ed498bbccd5eff04516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe680b8a9f41e249adfcf2890fd868e') in 0.145253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 234
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Bugs/TestingAreo2.fbx
+  artifactKey: Guid(54231843ced8fa94a91679a6c231ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/TestingAreo2.fbx using Guid(54231843ced8fa94a91679a6c231ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e22f40f51f55a991508fbe6cef3bc6') in 0.135630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 237
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Bugs/Set.fbx
+  artifactKey: Guid(876cd174c6565fa4fbf0754b1d78e386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/Set.fbx using Guid(876cd174c6565fa4fbf0754b1d78e386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02cffd930e65b3461572cf006e6faeab') in 0.085002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
