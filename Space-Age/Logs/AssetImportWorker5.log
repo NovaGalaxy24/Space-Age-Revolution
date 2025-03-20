@@ -300,3 +300,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3882.204731 seconds.
+  path: Assets/Bugs/BB-Ringo.fbx
+  artifactKey: Guid(b1b12c2fe65f9254ea6503abbf4c57f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bugs/BB-Ringo.fbx using Guid(b1b12c2fe65f9254ea6503abbf4c57f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916c509fbf1c9092c0be764efea6486b') in 1.692402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 249
+========================================================================
+Received Import Request.
+  Time since last request: 751.036802 seconds.
+  path: Assets/Objects
+  artifactKey: Guid(3bd73bddc6cd6cd48b0ded84b5cdfdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects using Guid(3bd73bddc6cd6cd48b0ded84b5cdfdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16da355a17d439b0e9f0de1e9152edb') in 0.001534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.156688 seconds.
+  path: Assets/Objects/BugBandALLTOGETHERNOW.fbx
+  artifactKey: Guid(c043b5bb4a0292040926c6b4f853434c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/BugBandALLTOGETHERNOW.fbx using Guid(c043b5bb4a0292040926c6b4f853434c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e8bf750d7f5a7fccba6bbf1c69969d') in 0.662565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1008
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Objects/Random Props.fbx
+  artifactKey: Guid(cb774f32ddc692740a7226fefd2df071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Random Props.fbx using Guid(cb774f32ddc692740a7226fefd2df071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cbdc5b4bc205a54e123a21af7f5e05') in 0.115760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Objects/Wallssss.fbx
+  artifactKey: Guid(fc424cff02fdbea4c8b1f0a9f81373e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Wallssss.fbx using Guid(fc424cff02fdbea4c8b1f0a9f81373e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc8204d1f1e74600cc4536f604cf935') in 0.075786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Objects/Crown.fbx
+  artifactKey: Guid(e59d9e9c9518edd44b3d6701ec6aad85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Crown.fbx using Guid(e59d9e9c9518edd44b3d6701ec6aad85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ceacb6da9a1d1b56b49b94d64af081') in 0.106961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Objects/Layout.fbx
+  artifactKey: Guid(a80afffb77e4a084985f5cebfcaf20b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Layout.fbx using Guid(a80afffb77e4a084985f5cebfcaf20b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa35e06fec8c94e76b8605f8c089a3e') in 0.217457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
