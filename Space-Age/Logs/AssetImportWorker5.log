@@ -278,3 +278,56 @@ Received Import Request.
 Start importing Assets/SpaceSkies Free/Skybox_1/Textures/4K_Resolution/Right_4K_TEX.png using Guid(985fa1ea9fecfaf469918bae7e557416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a5b2684268583e808e20d9db2b2df1') in 0.024279 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 699.295165 seconds.
+  path: Assets/Prefabs/Transition Manager.prefab
+  artifactKey: Guid(b09d33c8b7830a34d89d176d138cba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Transition Manager.prefab using Guid(b09d33c8b7830a34d89d176d138cba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d476781cfd031959c63e25e19d72c13') in 0.026112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 13.165774 seconds.
+  path: Assets/Parts/BEAM.fbx
+  artifactKey: Guid(23e9b07d6e8d688499770f457dae4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parts/BEAM.fbx using Guid(23e9b07d6e8d688499770f457dae4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c89ce65266d1974cdc8bc692d58d99c') in 0.153746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Parts/Columbus.fbx
+  artifactKey: Guid(4b4a93a6a68b4864fb5220b49b277af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parts/Columbus.fbx using Guid(4b4a93a6a68b4864fb5220b49b277af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeab66a6bbf58dafde8e4efa386090d4') in 0.473758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 225
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Parts/Node2.fbx
+  artifactKey: Guid(fc008909fdbd4f34984ecb65c3375f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parts/Node2.fbx using Guid(fc008909fdbd4f34984ecb65c3375f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0cd9650b261ab278673f0902f710eb') in 0.282446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 178
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Parts/Node1.fbx
+  artifactKey: Guid(614c02f26d3483d4e933a5126c9f8fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parts/Node1.fbx using Guid(614c02f26d3483d4e933a5126c9f8fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8122fa364237af1220828f88af51d386') in 0.162235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Parts/JPM.fbx
+  artifactKey: Guid(866ddabd47d47a54fbd718ea84549be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parts/JPM.fbx using Guid(866ddabd47d47a54fbd718ea84549be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883749b1deab59cd5c65892a20d2ad1f') in 0.423117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 241
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

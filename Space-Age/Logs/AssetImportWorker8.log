@@ -206,3 +206,96 @@ AssetImportParameters requested are different than current active one (requested
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1153125.186518 seconds.
+  path: Assets/Prefabs/Fader Screen.prefab
+  artifactKey: Guid(e367714f162349d48a5cb6f00133e149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fader Screen.prefab using Guid(e367714f162349d48a5cb6f00133e149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a2a0c132c949153ae89c4b7fde79f0') in 0.351515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.282356 seconds.
+  path: Assets/ShipTextures
+  artifactKey: Guid(da9b41cc438d810419deea75c3f07ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipTextures using Guid(da9b41cc438d810419deea75c3f07ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda84d1ecaee8609af02013e1f176c1d') in 0.000910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.412751 seconds.
+  path: Assets/Parts
+  artifactKey: Guid(31450b3530460604cae46128e6afbd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parts using Guid(31450b3530460604cae46128e6afbd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f845ca3c9c02588336b99036fe85f76') in 0.001102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.119731 seconds.
+  path: Assets/Parts/Airlock_Int_Sys.fbx
+  artifactKey: Guid(e6a7a7cb480b9a6489617d011f1b79d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parts/Airlock_Int_Sys.fbx using Guid(e6a7a7cb480b9a6489617d011f1b79d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb82c4b185c5738efd337c1a2410da36') in 0.313752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Parts/Bishop.fbx
+  artifactKey: Guid(85b337b339d76c3429df06f02891041a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parts/Bishop.fbx using Guid(85b337b339d76c3429df06f02891041a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23213a1be5f2ed7694892afbc5ee3987') in 0.080790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Parts/PMM.fbx
+  artifactKey: Guid(958cbcc3939d03d4d8187cc7f3f7b63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parts/PMM.fbx using Guid(958cbcc3939d03d4d8187cc7f3f7b63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38ac3efccfc8c5f8da4e484b0beb2d8') in 0.161458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Parts/Node3.fbx
+  artifactKey: Guid(c34ba6d1cbeee5e4f9cf2516d5cbe7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parts/Node3.fbx using Guid(c34ba6d1cbeee5e4f9cf2516d5cbe7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a87d88eadae10f8e71b2c4eda79a57d') in 0.346779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 138
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Parts/JLP.fbx
+  artifactKey: Guid(e043562e25654634499b9d8b0095eb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parts/JLP.fbx using Guid(e043562e25654634499b9d8b0095eb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51cac670d682e11d9e0efab16e7810b') in 0.147887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Parts/Module_Connecters.fbx
+  artifactKey: Guid(289a99123d4f6a64a8bc4333b55604a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parts/Module_Connecters.fbx using Guid(289a99123d4f6a64a8bc4333b55604a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd161b961f11a36e83d3954beb6c22a22') in 0.091343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Parts/Cupola.fbx
+  artifactKey: Guid(6ff58bf13d0a64142b894cfb05e4dff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parts/Cupola.fbx using Guid(6ff58bf13d0a64142b894cfb05e4dff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f853aace253fa6c7b9d8502429bb6b3') in 0.187161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Parts/US_Lab.fbx
+  artifactKey: Guid(6eb848fdb3276fd4480d15d26d1fda03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parts/US_Lab.fbx using Guid(6eb848fdb3276fd4480d15d26d1fda03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190370569570d2c142e04f4b49025060') in 0.635141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 378
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
