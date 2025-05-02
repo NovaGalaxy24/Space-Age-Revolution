@@ -5,6 +5,7 @@ using UIElements;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.XR.Interaction.Toolkit.Attachment;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
 namespace Dialogue
 {
@@ -35,9 +36,9 @@ namespace Dialogue
 
         }
 
-        public void OnInteract(Interactor interactor)
+        public void OnInteract(XRPokeInteractor pokeInteractor)
         {
-            var dialogueState = interactor.GetComponent<DialogueState>();
+            var dialogueState = pokeInteractor.gameObject.GetComponent<DialogueState>();
             if (dialogueState == null) return;
 
             dialogueTree.SetUpDialogueState(dialogueState);

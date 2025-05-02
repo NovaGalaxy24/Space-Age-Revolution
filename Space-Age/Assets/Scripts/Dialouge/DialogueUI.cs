@@ -15,6 +15,7 @@ namespace UIElements
         [SerializeField] private TextMeshProUGUI npcNameText;
         [SerializeField] private TextMeshProUGUI sentenceText;
 
+        public GameObject dialogueButtonParent;
         private Button[] _buttons;
         private Queue<string> _sentences;
         private DialogueOption[] _dialogueOptions;
@@ -22,7 +23,9 @@ namespace UIElements
 
         private void Start()
         {
-            _buttons = GetComponent<Button[]>();
+            if (dialogueButtonParent != null) 
+                _buttons = dialogueButtonParent.GetComponentsInChildren<Button>();
+
             _sentences = new Queue<string>();
             gameObject.SetActive(false);
         }
