@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\assets\\scripts\\dialouge\\dialogueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialouge\\dialogueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\assets\\scripts\\dialouge\\dialoguehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialouge\\dialoguehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|c:\\users\\xmr5547\\documents\\github\\space-age-revolution\\space-age\\assets\\scripts\\dialouge\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialouge\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\assets\\scripts\\dialouge\\dialogueoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialouge\\dialogueoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\assets\\scripts\\dialouge\\dialogueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialouge\\dialogueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\assets\\scripts\\dialouge\\dialoguehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialouge\\dialoguehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\assets\\scripts\\dialouge\\scriptableevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Interactable.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\Dialouge\\Interactable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialouge\\Interactable.cs",
@@ -59,33 +59,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "DialogueUI.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\Dialouge\\DialogueUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialouge\\DialogueUI.cs",
               "ToolTip": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\Dialouge\\DialogueUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\Dialouge\\DialogueUI.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAmwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAuwGkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T22:46:07.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "DialogueHandler.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\Dialouge\\DialogueHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialouge\\DialogueHandler.cs",
               "ToolTip": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\Dialouge\\DialogueHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\Dialouge\\DialogueHandler.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAADgvygAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T22:20:21.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DialogueTreeObject.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\Dialouge\\DialogueTreeObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialouge\\DialogueTreeObject.cs",
@@ -98,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DialogueState.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\Dialouge\\DialogueState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialouge\\DialogueState.cs",
@@ -111,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DialogueOption.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\Dialouge\\DialogueOption.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialouge\\DialogueOption.cs",
@@ -119,8 +119,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Dialouge\\DialogueOption.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T21:36:00.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T21:36:00.365Z"
             },
             {
               "$type": "Document",
@@ -132,8 +131,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Dialouge\\DialogueUnit.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T21:35:58.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T21:35:58.166Z"
             },
             {
               "$type": "Document",
@@ -145,8 +143,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Dialouge\\ScriptableEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T21:35:48.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T21:35:48.542Z"
             }
           ]
         }

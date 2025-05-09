@@ -83,9 +83,47 @@ namespace UIElements
                 return false;
             }
 
-            sentenceText.text = _sentences.Dequeue();
+            //sentenceText.text = _sentences.Dequeue();
+
+            if(isRunning)
+            {
+                isRunning = false;
+                StopCoroutine(textTypeOutCoroutine);
+            }
+
+            textTypeOutCoroutine = StartCoroutine(TypeOutText(_sentences.Dequeue()));
+            
+
+
             return _sentences.Count > 0;
         }
+
+
+        //Coroutine Stuff
+        Coroutine textTypeOutCoroutine;
+        bool isRunning = false;
+
+        [SerializeField] float _timeBetweenFrame = 0.05f;
+
+        IEnumerator TypeOutText(string text)
+        {
+            isRunning = true;
+            string cache = "";
+
+            for (int i = 0; i < text.Length; i++)
+            {
+                cache += text[i].ToString();
+
+                sentenceText.text = cache;
+
+                yield return new WaitForSeconds(_timeBetweenFrame);
+
+
+            }
+            isRunning = false;
+
+        }
+
 
         private void DisplayContinueDialogueButton()
         {
