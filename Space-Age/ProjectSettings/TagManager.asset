@@ -3,12 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Checkpoint
+  - Athletics
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - MagicLayer
   - Water
   - UI
   - 
