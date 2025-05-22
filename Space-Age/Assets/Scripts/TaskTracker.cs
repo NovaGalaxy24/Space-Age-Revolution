@@ -9,8 +9,8 @@ public class TaskTracker : MonoBehaviour
 {
     // Task Tracker Setup WIP
     // Task TODOs: 
-    // Exercise Task - Complete! (Altough make invisible walls to prevent escape)
-    // Plant Task - Incomplete
+    // Exercise Task - Complete!
+    // Plant Task - In Progress
     // Food Task - Incomplete
     // Entertainment Task - Incomplete
     // Task Tracker - Find A way to update dialouge state

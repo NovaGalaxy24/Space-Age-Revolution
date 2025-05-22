@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Checkpoint
   - Athletics
+  - Anchor
+  - Plants
   layers:
   - Default
   - TransparentFX
