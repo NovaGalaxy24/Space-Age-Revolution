@@ -8,6 +8,8 @@ TagManager:
   - Athletics
   - Anchor
   - Plants
+  - Mouth
+  - Food
   layers:
   - Default
   - TransparentFX
