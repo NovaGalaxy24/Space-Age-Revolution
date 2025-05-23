@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|c:\\users\\xmr5547\\documents\\github\\space-age-revolution\\space-age\\assets\\scripts\\daycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|c:\\users\\xmr5547\\documents\\github\\space-age-revolution\\space-age\\assets\\scripts\\gradientskybox.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gradientskybox.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|c:\\users\\xmr5547\\documents\\github\\space-age-revolution\\space-age\\assets\\scripts\\dialouge\\dialogueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialouge\\dialogueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\assets\\scripts\\daycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\daycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|c:\\users\\xmr5547\\documents\\github\\space-age-revolution\\space-age\\assets\\scripts\\scenetransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\assets\\scripts\\scenetransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenetransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|c:\\users\\xmr5547\\documents\\github\\space-age-revolution\\space-age\\assets\\scripts\\tasktracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\assets\\scripts\\tasktracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tasktracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\assets\\scripts\\watertheplants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\watertheplants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\assets\\scripts\\dialouge\\dialogueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialouge\\dialogueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A2E022C-73BC-55AC-F57B-BA64FE5104BC}|Assembly-CSharp.csproj|C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\assets\\scripts\\killyourself.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,11 +70,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "GradientSkybox.shader",
+              "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\GradientSkybox.shader",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GradientSkybox.shader",
+              "ToolTip": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\GradientSkybox.shader",
+              "RelativeToolTip": "Assets\\Scripts\\GradientSkybox.shader",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-05-23T00:21:11.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SceneTransitionManager.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\SceneTransitionManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneTransitionManager.cs",
@@ -78,12 +95,11 @@
               "RelativeToolTip": "Assets\\Scripts\\SceneTransitionManager.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T23:42:35.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T23:42:35.768Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DayControl.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\DayControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DayControl.cs",
@@ -91,12 +107,11 @@
               "RelativeToolTip": "Assets\\Scripts\\DayControl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T23:24:02.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T23:24:02.979Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "WaterThePlants.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\WaterThePlants.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WaterThePlants.cs",
@@ -108,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TaskTracker.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\TaskTracker.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TaskTracker.cs",
@@ -116,12 +131,11 @@
               "RelativeToolTip": "Assets\\Scripts\\TaskTracker.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAowEAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T21:54:38.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T21:54:38.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ButtonPress.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\ButtonPress.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonPress.cs",
@@ -133,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "KillYourself.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\KillYourself.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KillYourself.cs",
@@ -145,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Interactable.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\Dialouge\\Interactable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialouge\\Interactable.cs",
@@ -157,19 +171,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "DialogueUI.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\Dialouge\\DialogueUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialouge\\DialogueUI.cs",
               "ToolTip": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\Dialouge\\DialogueUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\Dialouge\\DialogueUI.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAIwLAAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T22:46:07.473Z"
+              "WhenOpened": "2025-04-10T22:46:07.473Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DialogueHandler.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\Dialouge\\DialogueHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialouge\\DialogueHandler.cs",
@@ -181,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "DialogueTreeObject.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\Dialouge\\DialogueTreeObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialouge\\DialogueTreeObject.cs",
@@ -193,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "DialogueState.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\Dialouge\\DialogueState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialouge\\DialogueState.cs",
@@ -205,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "DialogueOption.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\Dialouge\\DialogueOption.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialouge\\DialogueOption.cs",
@@ -217,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "DialogueUnit.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\Dialouge\\DialogueUnit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialouge\\DialogueUnit.cs",
@@ -229,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ScriptableEvent.cs",
               "DocumentMoniker": "C:\\Users\\xmr5547\\Documents\\GitHub\\Space-Age-Revolution\\Space-Age\\Assets\\Scripts\\Dialouge\\ScriptableEvent.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialouge\\ScriptableEvent.cs",

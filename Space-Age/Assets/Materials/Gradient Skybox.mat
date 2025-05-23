@@ -31,16 +31,16 @@ Material:
     - _BottomExponent: 5.84
     - _DirectionPitch: 0
     - _DirectionYaw: 0
-    - _Exponent: 1.59
+    - _Exponent: 1.5
     - _Exposure: 1.19
-    - _Intensity: 0.71
+    - _Intensity: 1
     - _SunDisk: 0
     - _SunSize: 0
     - _SunSizeConvergence: 5
     - _TopExponent: 2.73
     m_Colors:
     - _BottomColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 0}
-    - _Color1: {r: 0.02002492, g: 0.020246537, b: 0.09433961, a: 0}
+    - _Color1: {r: 0.006852977, g: 0.034294795, b: 0.20754719, a: 0}
     - _Color2: {r: 0.6451164, g: 0.4012549, b: 0.6698113, a: 0}
     - _Direction: {r: 0, g: 1, b: 0, a: 0}
     - _GroundColor: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
