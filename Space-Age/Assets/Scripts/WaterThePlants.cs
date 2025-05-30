@@ -36,7 +36,7 @@ public class WaterThePlants : MonoBehaviour
                 Water.SetActive(false);
                 Plant.material = Plantw;
                 Land.material = Landw;
-                TaskTrack.taskTracker += 1;
+                TaskTrack.taskTracker ++;
 
             }
             else

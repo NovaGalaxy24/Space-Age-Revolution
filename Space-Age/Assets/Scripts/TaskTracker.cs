@@ -10,8 +10,8 @@ public class TaskTracker : MonoBehaviour
     // Task Tracker Setup WIP
     // Task TODOs: 
     // Exercise Task - Complete!
-    // Plant Task - In Progress
-    // Food Task - Incomplete
+    // Plant Task - Testing Required
+    // Food Task - Testing Phase
     // Entertainment Task - Incomplete
     // Task Tracker - Find A way to update dialouge state
 
@@ -21,12 +21,18 @@ public class TaskTracker : MonoBehaviour
     public bool exerciseTask;
     public int checkpointCounter;
 
+    //
+    public bool entertainmentTask;
+    public int entertaintime;
+    public bool addingETime;
 
-    
     void Start()
     {
         taskTracker = 0;
         checkpointCounter = 0;
+        entertaintime = 0;
+        entertainmentTask = true;
+        addingETime = false;
         exerciseTask = false;
     }
 
@@ -39,12 +45,27 @@ public class TaskTracker : MonoBehaviour
             if (checkpointCounter == 10)
              {
                 // SFX to indicate Finished Task
-                taskTracker += 1;
+                taskTracker ++;
                 transform.position = athleticsExit.transform.position;
                 exerciseTask = false;
                 athleticsCp.gameObject.SetActive(false);
             }
         }
+
+        if (entertainmentTask)
+        {
+            if (entertaintime >= 2000)
+            {
+                taskTracker ++;
+                entertainmentTask = false;
+            }
+            else if (addingETime)
+            {
+                entertaintime++;
+            }
+        }
+          
+      
 
         if (taskTracker == 4)
         {
@@ -57,7 +78,7 @@ public class TaskTracker : MonoBehaviour
     [SerializeField] GameObject athleticsExit;
     [SerializeField] GameObject athleticsGame;
     [SerializeField] GameObject athleticsCp;
-    [SerializeField] GameObject athleticsExitCp;
+    //[SerializeField] GameObject athleticsExitCp;
 
     //bool hasTriggered;
     private void OnTriggerEnter(Collider other)
@@ -81,6 +102,20 @@ public class TaskTracker : MonoBehaviour
             athleticsCp.gameObject.SetActive(true);
         }
     }
+
+    public void IsEntertained()
+    {
+       if (addingETime)
+        {
+            addingETime = false;
+        }
+       else if (!addingETime)
+        {
+            addingETime = true;
+        }
+    }
+
+
 
     
   
