@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Rendering;
 
 public class TaskTracker : MonoBehaviour
@@ -15,16 +16,23 @@ public class TaskTracker : MonoBehaviour
     // Entertainment Task - Incomplete
     // Task Tracker - Find A way to update dialouge state
 
+
     public int taskTracker;
 
     // Exersise Task
     public bool exerciseTask;
     public int checkpointCounter;
-
+    [SerializeField] GameObject pingSourceAthletics;
+    [SerializeField] GameObject athleticsExit;
+    [SerializeField] GameObject athleticsGame;
+    [SerializeField] GameObject athleticsCp;
+    //[SerializeField] GameObject athleticsExitCp;
     //
     public bool entertainmentTask;
     public int entertaintime;
     public bool addingETime;
+
+    public UnityEvent dialogueChange;
 
     void Start()
     {
@@ -69,16 +77,14 @@ public class TaskTracker : MonoBehaviour
 
         if (taskTracker == 4)
         {
-            //update Dialouge State to "d"
+            dialogueChange.Invoke();
+            Debug.Log("ay it worked!");
+            taskTracker++;
         }
              
     }
 
-    [SerializeField] GameObject pingSourceAthletics;
-    [SerializeField] GameObject athleticsExit;
-    [SerializeField] GameObject athleticsGame;
-    [SerializeField] GameObject athleticsCp;
-    //[SerializeField] GameObject athleticsExitCp;
+  
 
     //bool hasTriggered;
     private void OnTriggerEnter(Collider other)
@@ -114,11 +120,5 @@ public class TaskTracker : MonoBehaviour
             addingETime = true;
         }
     }
-
-
-
-    
-  
-
 
 }
