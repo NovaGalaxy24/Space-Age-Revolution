@@ -1,17 +1,24 @@
 TO DO:
 IN GAME:
-- test Game fully in VR (once days are done)
-- Add Days 2,3,4 Dialogue
+
 - Food Models & Variants
 - Plant Models & Variants (source these?)
 - Sleeping Bag Model
 - Hands?
 - Speed increase outside? maybe even a "space suit helmet"
-- Fix Day 1 Random Gibber sections (+the one long quiz answer)
+- Replace Sound Effects
+- Re think lights?
 
+- Create the Days
+- Add the pale blue dot to Day 4
+- Remove Exercise functionality of Day 3
+- Lower lighting in Day 3.
+- Add in Cake Checker in Day 2 
+- Add in Curiosity song in Day 2.
+
+- test Game fully in VR (once days are done)
 
 Workbook:
-Finish Days 2, 3, 4, 5
 
 ALL CODE BREAKDOWNS
 Week 7 Inital Dialouge Set up
@@ -20,4 +27,6 @@ Week 9 Athletics Task
 Week 10 Day Transition, Plant Watering, build attempt 1, 
 Week 11 Food Fix-ups, TV TIME
 
-Week 12 Day Transition 2, Labels, Dialogue State Changer :D
+Week 12: Days Flowchart complete, Model Beginnings, Day Transition 2, Labels, Dialogue State Changer YAY AND THEN SICK AAAAAAA
+
+Week 13: Added in the Days, Fixed writing errors/placeholders.   

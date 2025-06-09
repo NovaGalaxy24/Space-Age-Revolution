@@ -1,0 +1,770 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935b4f5cba434ff419e8481edb0089d7, type: 3}
+  m_Name: Day3_CompDialouge
+  m_EditorClassIdentifier: 
+  npcName: ComputerAI
+  defaultState: a
+  defaultOption:
+    buttonText: 
+    actionToTrigger:
+      m_PersistentCalls:
+        m_Calls: []
+  scriptableCallbackNames:
+  - Curiosity
+  dialogueUnits:
+  - requiredStateKey: a
+    sentences:
+    - '>Booting Up
+
+      >Initalising....
+
+
+      Hello Astronaut! Welcome to another
+      day amongst the stars!
+
+
+      Today is Day...
+
+      Day...
+
+      Day 138
+      of our journey so far.'
+    options:
+    - buttonText: It's been a while.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: AddToState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: a
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: Continue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: b
+              m_BoolArgument: 0
+            m_CallState: 2
+    - buttonText: Hello Computer.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: AddToState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: a
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: Continue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: a
+              m_BoolArgument: 0
+            m_CallState: 2
+  - requiredStateKey: aa
+    sentences:
+    - 'Astronaut! I am glad to see you are... responsive again.
+
+      It has been...
+      27 days since you retreated into your quarters.'
+    options:
+    - buttonText: Yep. I'm back.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: AddToState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: a
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: Continue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: a
+              m_BoolArgument: 0
+            m_CallState: 2
+    - buttonText: That long, huh?
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: AddToState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: a
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: Continue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: b
+              m_BoolArgument: 0
+            m_CallState: 2
+  - requiredStateKey: aaa
+    sentences:
+    - I hope you are in better spirits now. I understand long solo journeys can be
+      difficult. If it helps, we are on the return trip now, so every day now is
+      closer to earth.
+    options:
+    - buttonText: great.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: AddToState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: a
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: Continue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: c
+              m_BoolArgument: 0
+            m_CallState: 2
+  - requiredStateKey: aaaa
+    sentences:
+    - If you would like to continue doing your daily tasks, you can. perhaps returning
+      to routine may improve your wellbeing? Completing them all is not necessary,
+      just do what you can.
+    options:
+    - buttonText: I'd rather not.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: AddToState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: a
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: Continue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: c
+              m_BoolArgument: 0
+            m_CallState: 2
+    - buttonText: Sure, okay.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: AddToState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: b
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: Continue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: c
+              m_BoolArgument: 0
+            m_CallState: 2
+  - requiredStateKey: aaaaa
+    sentences:
+    - If you believe that's best, but I do recommend at least giving one a shot.
+      Maybe it will improve things?
+    options:
+    - buttonText: I'd. Rather. Not.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: ResetState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: f
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: EndDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: c
+              m_BoolArgument: 0
+            m_CallState: 2
+    - buttonText: Fine. Maybe.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: ResetState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: aaaab
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: Continue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: c
+              m_BoolArgument: 0
+            m_CallState: 2
+  - requiredStateKey: aaaab
+    sentences:
+    - 'That''s good to hear Astronaut!
+
+      Just come back once you''re done, or
+      if you have any questions.'
+    options:
+    - buttonText: Yup.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: ResetState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: b
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: EndDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: c
+              m_BoolArgument: 0
+            m_CallState: 2
+    - buttonText: We'll see.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: ResetState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: b
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: EndDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: c
+              m_BoolArgument: 0
+            m_CallState: 2
+  - requiredStateKey: abba
+    sentences:
+    - 'MAMMA MIA, HERE I GO AGAIN
+
+      MY, MY,
+
+      HOW CAN I RESIST YOU?
+
+      MAMMA
+      MIA, DOES IT SHOW AGAIN?
+
+      MY, MY,
+
+      JUST HOW MUCH I MISSED YOU?'
+    - 'Oh! Astronaut!
+
+      How did you- oh never mind.
+
+      Lets just forget
+      this happened?'
+    options:
+    - buttonText: What just happened?
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: ResetState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: b
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: EndDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: c
+              m_BoolArgument: 0
+            m_CallState: 2
+    - buttonText: You like Mamma Mia?
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: ResetState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: b
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: EndDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: c
+              m_BoolArgument: 0
+            m_CallState: 2
+  - requiredStateKey: b
+    sentences:
+    - ">booting up\n>initialling\n\nHello Astronaut! \n\nI hope things are going
+      well."
+    options:
+    - buttonText: What happened to Exersise?
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: AddToState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: a
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: Continue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: GWOT off
+              m_BoolArgument: 0
+            m_CallState: 2
+    - buttonText: Going fine.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: ResetState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: b
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: EndDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: GWOT off
+              m_BoolArgument: 0
+            m_CallState: 2
+    - buttonText: I'm done for today.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: AddToState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: b
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: Continue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: GWOT off
+              m_BoolArgument: 0
+            m_CallState: 2
+  - requiredStateKey: ba
+    sentences:
+    - 'My apologies Astronaut,
+
+      but it''s in your best interest that you stay
+      inside for now.
+
+
+      Think of this as a cheat day. '
+    options:
+    - buttonText: Don't think I was getting exercise anyways.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: ResetState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: b
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: EndDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: GWOT off
+              m_BoolArgument: 0
+            m_CallState: 2
+    - buttonText: That's fair, I guess.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: ResetState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: b
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: EndDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: GWOT off
+              m_BoolArgument: 0
+            m_CallState: 2
+  - requiredStateKey: bb
+    sentences:
+    - 'That''s good to hear, Astronaut.
+
+      I''m glad you tried to do something
+      today. There''s still success in that'
+    options:
+    - buttonText: I guess I do feel better.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: AddToState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: a
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: Continue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: GWOT off
+              m_BoolArgument: 0
+            m_CallState: 2
+    - buttonText: I don't feel any different.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: AddToState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: b
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: Continue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: GWOT off
+              m_BoolArgument: 0
+            m_CallState: 2
+  - requiredStateKey: bba
+    sentences:
+    - 'And perhaps tomorrow will be even better. But it''s time you rest.
+
+
+      Good
+      Night, Astronaut.'
+    options:
+    - buttonText: Goodnight Computer.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: ResetState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: f
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: EndDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: GWOT off
+              m_BoolArgument: 0
+            m_CallState: 2
+  - requiredStateKey: bbb
+    sentences:
+    - "Progress can be slow sometimes, and sometimes all we can do is just try to
+      keep going. But, it's time you rest. \n\nGood night Astronaut."
+    options:
+    - buttonText: Good night, Computer.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: ResetState
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: f
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: EndDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: GWOT off
+              m_BoolArgument: 0
+            m_CallState: 2
+  - requiredStateKey: f
+    sentences:
+    - '>Checking logs
+
+      >Computer in sleep mode
+
+      >Powering off'
+    options:
+    - buttonText: Goodnight, Computer.
+      actionToTrigger:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: Dialogue.DialogueTreeObject, Assembly-CSharp
+            m_MethodName: EndDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: c
+              m_BoolArgument: 0
+            m_CallState: 2
+  dialogueState: {fileID: 0}

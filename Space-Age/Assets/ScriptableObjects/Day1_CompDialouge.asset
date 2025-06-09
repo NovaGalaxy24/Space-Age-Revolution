@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 935b4f5cba434ff419e8481edb0089d7, type: 3}
-  m_Name: Comp_DT_D1
+  m_Name: Day1_CompDialouge
   m_EditorClassIdentifier: 
   npcName: ComputerAI
   defaultState: a
@@ -156,9 +156,10 @@ MonoBehaviour:
       >Fetching Daily Tasks
 
       >Daily Tasks Fetched'
-    - "Your Daily Tasks are the Following:\n- Water the Plants, and observe any changes.\n-
-      Engage in Physical Health Routines\L- Engage in Entertainment Activities\n-
-      Log any and all mental or physical experiences you have on the computer"
+    - "Your Daily Tasks are the Following:\n - \"Engage in Botanical Activites.\"\n-
+      \"Engage in Physical Health Routines\"\L- \"Engage in Entertainment Activities\"\n-
+      \"Engage in Nutritional Activities\"\n \nFinally, log any and all mental or
+      physical experiences you have on the computer upon completion."
     options:
     - buttonText: Understood
       actionToTrigger:
@@ -224,9 +225,10 @@ MonoBehaviour:
 
       >Daily Tasks
       Fetched'
-    - "Your Daily Tasks are the Following:\n- Water the Plants, and observe any changes.\n-
-      Engage in Physical Health Routines\L- Engage in Entertainment Activities\n-
-      Log any and all mental or physical experiences you have on the computer"
+    - "Your Daily Tasks are the Following:\n - \"Engage in Botanical Activites.\"\n-
+      \"Engage in Physical Health Routines\"\L- \"Engage in Entertainment Activities\"\n-
+      \"Engage in Nutritional Activities\"\n \nFinally, log any and all mental or
+      physical experiences you have on the computer upon completion."
     options:
     - buttonText: Understood
       actionToTrigger:
@@ -798,7 +800,7 @@ MonoBehaviour:
             m_CallState: 2
   - requiredStateKey: ba
     sentences:
-    - your Daily Tasks!
+    - Your Daily Tasks!
     options:
     - buttonText: Why am I doing those?
       actionToTrigger:
@@ -985,10 +987,10 @@ MonoBehaviour:
             m_CallState: 2
   - requiredStateKey: bab
     sentences:
-    - "\"Your Daily Tasks are the Following:\n\"Water the Plants, and observe any
-      changes.\"\n\"Engage in Physical Health Routines\"\L\"Engage in Entertainment
-      Activities\"\nFORTH OPTION\nFinally, Log any and all mental or physical experiences
-      you have on the computer upon completion\"\n"
+    - "Your Daily Tasks are the Following:\n - \"Engage in Botanical Activites.\"\n-
+      \"Engage in Physical Health Routines\"\L- \"Engage in Entertainment Activities\"\n-
+      \"Engage in Nutritional Activities\"\n \nFinally, log any and all mental or
+      physical experiences you have on the computer upon completion.\n"
     - Do you have a specific question about a Task?
     options:
     - buttonText: I do, yes
@@ -1107,7 +1109,7 @@ MonoBehaviour:
               m_StringArgument: c
               m_BoolArgument: 0
             m_CallState: 2
-    - buttonText: Plants
+    - buttonText: Botanical
       actionToTrigger:
         m_PersistentCalls:
           m_Calls:
@@ -1135,7 +1137,7 @@ MonoBehaviour:
               m_StringArgument: c
               m_BoolArgument: 0
             m_CallState: 2
-    - buttonText: FORTH OPTION
+    - buttonText: Nutrition
       actionToTrigger:
         m_PersistentCalls:
           m_Calls:
@@ -1165,7 +1167,11 @@ MonoBehaviour:
             m_CallState: 2
   - requiredStateKey: babaa
     sentences:
-    - Physical Health Instructions
+    - "Loading Physical Health Instructions....\nInstructions Loaded.\n\nAstronaut
+      is to proceed to the Airlock. Once outside the ship, Astronaut is to navagate
+      around the ship and find \"Checkpoints\". Astronaut is to collect these Checkpoints
+      by flying through them. \n\nOnce Ten Checkpoints have been found and collected,
+      Astronaut will be retrived and brought back inside the ship. Task is Completed."
     options:
     - buttonText: Thank you
       actionToTrigger:
@@ -1225,7 +1231,11 @@ MonoBehaviour:
             m_CallState: 2
   - requiredStateKey: babab
     sentences:
-    - Entertainment Instructions
+    - "Loading Entertainment Instructions....\nInstructions Loaded.\n\nAstronaut
+      is to proceed to the Entertainment Sector. Astronaut must engage in any of
+      the entertaining activites for at least ten seconds, such as the following:
+      \n- Watching Engaging Media.\n- Listening to Engaging Music.\n\nAstronaut can
+      then consider the task complete."
     options:
     - buttonText: Thank you
       actionToTrigger:
@@ -1285,7 +1295,21 @@ MonoBehaviour:
             m_CallState: 2
   - requiredStateKey: babac
     sentences:
-    - Plant Instructions
+    - 'Loading Botanical Instructions....
+
+      Instructions Loaded.
+
+
+      Astronaut
+      is to Proceed to the Botanical Sector.
+
+      Astronaut will then obtain the
+      Botanical Hydration Desperser (commonly known as a "watering can") and water
+      the botainical units.
+
+
+      Task is completed when all botanical units exibit
+      signs of hydration.'
     options:
     - buttonText: Thank you
       actionToTrigger:
@@ -1345,7 +1369,20 @@ MonoBehaviour:
             m_CallState: 2
   - requiredStateKey: babad
     sentences:
-    - FORTH OPTION Instructions
+    - 'Loading Nutrition Instructions....
+
+      Instructions Loaded.
+
+
+      Astronaut
+      is to proceed to the Nutrition Sector.
+
+      Astronaut is to consume all of
+      the provided nutrition.
+
+
+      Task is considered Complete after Astronaut
+      has eaten all provided nutrition.'
     options:
     - buttonText: Thank you
       actionToTrigger:
@@ -1850,7 +1887,7 @@ MonoBehaviour:
             m_CallState: 2
   - requiredStateKey: da
     sentences:
-    - 'Your daily tasks!
+    - 'Your Daily Tasks!
 
       Which, according to my data logs, you''ve been doing
       an exemplary job of them!
@@ -2255,7 +2292,7 @@ MonoBehaviour:
               m_StringArgument: c
               m_BoolArgument: 0
             m_CallState: 2
-    - buttonText: I feel like I'm making an important step for science
+    - buttonText: I feel like I'm important.
       actionToTrigger:
         m_PersistentCalls:
           m_Calls:
