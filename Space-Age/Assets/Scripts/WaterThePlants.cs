@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class WaterThePlants : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class WaterThePlants : MonoBehaviour
     public int waterCounter;
     public bool amIWaterCounting;
     public bool waterStop;
+    public UnityEvent Watered;
 
     void Start()
     {
@@ -34,6 +36,7 @@ public class WaterThePlants : MonoBehaviour
             {
                 waterStop = true;
                 Water.SetActive(false);
+                Watered.Invoke();
                 Plant.material = Plantw;
                 Land.material = Landw;
                 TaskTrack.taskTracker ++;

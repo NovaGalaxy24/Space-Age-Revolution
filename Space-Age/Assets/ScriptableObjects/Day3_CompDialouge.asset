@@ -19,8 +19,7 @@ MonoBehaviour:
     actionToTrigger:
       m_PersistentCalls:
         m_Calls: []
-  scriptableCallbackNames:
-  - Curiosity
+  scriptableCallbackNames: []
   dialogueUnits:
   - requiredStateKey: a
     sentences:

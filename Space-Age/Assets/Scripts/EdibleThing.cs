@@ -21,7 +21,7 @@ public class EdibleThing : MonoBehaviour
         {
             bites++;
 
-            if (bites >= 3)
+            if (bites >= 4)
             {
                 gameObject.SetActive(false);
             }

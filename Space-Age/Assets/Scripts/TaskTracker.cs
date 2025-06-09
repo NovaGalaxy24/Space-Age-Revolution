@@ -19,21 +19,25 @@ public class TaskTracker : MonoBehaviour
 
     public int taskTracker;
 
+    public UnityEvent CheckedOff;
+
     // Exersise Task
     public bool exerciseTask;
     public int checkpointCounter;
     [SerializeField] GameObject pingSourceAthletics;
     [SerializeField] GameObject athleticsExit;
     [SerializeField] GameObject athleticsGame;
-    [SerializeField] GameObject athleticsCp;
-    //[SerializeField] GameObject athleticsExitCp;
-    //
+    public UnityEvent outside;
+    public UnityEvent inside;
+
+    //Entertainment Task
     public bool entertainmentTask;
     public int entertaintime;
     public bool addingETime;
 
     public UnityEvent dialogueChange;
 
+    
     void Start()
     {
         taskTracker = 0;
@@ -52,18 +56,19 @@ public class TaskTracker : MonoBehaviour
         {
             if (checkpointCounter == 10)
              {
-                // SFX to indicate Finished Task
+                inside.Invoke();
                 taskTracker ++;
                 transform.position = athleticsExit.transform.position;
                 exerciseTask = false;
-                athleticsCp.gameObject.SetActive(false);
+                
             }
         }
 
         if (entertainmentTask)
         {
-            if (entertaintime >= 2000)
+            if (entertaintime >= 4000)
             {
+                CheckedOff.Invoke();
                 taskTracker ++;
                 entertainmentTask = false;
             }
@@ -103,9 +108,9 @@ public class TaskTracker : MonoBehaviour
 
         if ((checkpointCounter < 10) && (other.tag == "Athletics"))
         {
+            outside.Invoke();
             exerciseTask = true;
             transform.position = athleticsGame.transform.position;
-            athleticsCp.gameObject.SetActive(true);
         }
     }
 

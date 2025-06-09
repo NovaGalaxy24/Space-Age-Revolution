@@ -4,17 +4,20 @@ IN GAME:
 - Food Models & Variants
 - Plant Models & Variants (source these?)
 - Sleeping Bag Model
-- Hands?
-- Speed increase outside? maybe even a "space suit helmet"
-- Replace Sound Effects
-- Re think lights?
+- Hands? DONE
+- Speed increase outside? maybe even a "space suit helmet" DONE
+- Replace Sound Effects DONE
+- Replace Videos DONE
+- Re think lights? DONE
+- Transition Fixed? DONE
+- Maybe add some sound for the computer its really really quiet man
 
-- Create the Days
-- Add the pale blue dot to Day 4
-- Remove Exercise functionality of Day 3
-- Lower lighting in Day 3.
+- Create the Days DONE
+- Add the pale blue dot to Day 4 DONE
+- Remove Exercise functionality of Day 3 DONE
+- Lower lighting in Day 3. DONE
 - Add in Cake Checker in Day 2 
-- Add in Curiosity song in Day 2.
+- Add in Curiosity song in Day 2. DONE
 
 - test Game fully in VR (once days are done)
 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Mouth : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class Mouth : MonoBehaviour
     public TaskTracker TaskTrack;
     [SerializeField] AudioSource NomNom;
     public bool Hungry;
+    public UnityEvent Full;
     
     private void OnTriggerEnter(Collider other)
     {
@@ -30,6 +32,7 @@ public class Mouth : MonoBehaviour
         {
             TaskTrack.taskTracker += 1;
             Hungry = false;
+            Full.Invoke();
         }
     }
 }

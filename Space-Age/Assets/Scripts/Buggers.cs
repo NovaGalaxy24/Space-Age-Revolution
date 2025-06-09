@@ -16,8 +16,11 @@ public class Buggers : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.tag == "Player")
+        {
             audio.Play(0);
             anim.Play("Buggers");
+        }
     }
     private void OnTriggerExit(Collider other)
     {
