@@ -10,13 +10,13 @@ IN GAME:
 - Replace Videos DONE
 - Re think lights? DONE
 - Transition Fixed? DONE
-- Maybe add some sound for the computer its really really quiet man
+- Maybe add some sound for the computer its really, really, quiet man (added music instead) DONE
 
 - Create the Days DONE
 - Add the pale blue dot to Day 4 DONE
 - Remove Exercise functionality of Day 3 DONE
 - Lower lighting in Day 3. DONE
-- Add in Cake Checker in Day 2 
+- Add in Cake Checker in Day 2 DONE
 - Add in Curiosity song in Day 2. DONE
 
 - test Game fully in VR (once days are done)
@@ -32,4 +32,4 @@ Week 11 Food Fix-ups, TV TIME
 
 Week 12: Days Flowchart complete, Model Beginnings, Day Transition 2, Labels, Dialogue State Changer YAY AND THEN SICK AAAAAAA
 
-Week 13: Added in the Days, Fixed writing errors/placeholders.   
+Week 13: Added in the Days, Fixed writing errors/placeholders, Day Switch, Updated Written Work

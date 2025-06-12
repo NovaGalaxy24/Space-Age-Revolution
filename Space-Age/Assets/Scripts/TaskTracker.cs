@@ -19,7 +19,8 @@ public class TaskTracker : MonoBehaviour
 
     public int taskTracker;
 
-    public UnityEvent CheckedOff;
+    public UnityEvent dialogueChange;
+
 
     // Exersise Task
     public bool exerciseTask;
@@ -35,7 +36,13 @@ public class TaskTracker : MonoBehaviour
     public int entertaintime;
     public bool addingETime;
 
-    public UnityEvent dialogueChange;
+    public UnityEvent CheckedOff;
+
+    //CakeCheckerDay2
+    public bool cakeSee;
+    public UnityEvent CakeSeen;
+
+  
 
     
     void Start()
@@ -46,6 +53,7 @@ public class TaskTracker : MonoBehaviour
         entertainmentTask = true;
         addingETime = false;
         exerciseTask = false;
+        cakeSee = true;
     }
 
 
@@ -111,6 +119,12 @@ public class TaskTracker : MonoBehaviour
             outside.Invoke();
             exerciseTask = true;
             transform.position = athleticsGame.transform.position;
+        }
+
+        if (cakeSee && (other.tag == "SeenFood"))
+        {
+            CakeSeen.Invoke();
+            cakeSee = false;
         }
     }
 

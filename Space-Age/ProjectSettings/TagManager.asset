@@ -10,6 +10,7 @@ TagManager:
   - Plants
   - Mouth
   - Food
+  - SeenFood
   layers:
   - Default
   - TransparentFX
