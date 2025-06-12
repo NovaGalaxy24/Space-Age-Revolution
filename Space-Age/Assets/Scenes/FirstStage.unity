@@ -13412,7 +13412,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1371882034
 Transform:
   m_ObjectHideFlags: 0
@@ -19593,7 +19593,7 @@ PrefabInstance:
     - target: {fileID: 2334945751892827117, guid: 55a99ff6ad9aa8446ba4a821c41ada88, type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 8400000, guid: 89d6b27e433164042a675b3d120d3d3f, type: 2}
+      objectReference: {fileID: 8400000, guid: cdc453ec5cc287242893aae05df64d4a, type: 2}
     - target: {fileID: 2642047142440142773, guid: 55a99ff6ad9aa8446ba4a821c41ada88, type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -19609,6 +19609,10 @@ PrefabInstance:
     - target: {fileID: 4348956664799837757, guid: 55a99ff6ad9aa8446ba4a821c41ada88, type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531939452847659785, guid: 55a99ff6ad9aa8446ba4a821c41ada88, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6714246553940146175, guid: 55a99ff6ad9aa8446ba4a821c41ada88, type: 3}
       propertyPath: m_LocalPosition.x

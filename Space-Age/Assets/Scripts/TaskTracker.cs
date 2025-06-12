@@ -11,10 +11,10 @@ public class TaskTracker : MonoBehaviour
     // Task Tracker Setup WIP
     // Task TODOs: 
     // Exercise Task - Complete!
-    // Plant Task - Testing Required
-    // Food Task - Testing Phase
-    // Entertainment Task - Incomplete
-    // Task Tracker - Find A way to update dialouge state
+    // Plant Task - Model's required
+    // Food Task - Models required
+    // Entertainment Task - Complete!
+    // Task Tracker - Complete!
 
 
     public int taskTracker;

@@ -19529,11 +19529,11 @@ PrefabInstance:
     - target: {fileID: 31164925000708571, guid: 55a99ff6ad9aa8446ba4a821c41ada88, type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: 78a8c0b4a69c3dd4a90a9ce5fd76a907, type: 3}
+      objectReference: {fileID: 32900000, guid: 56679ef59bb1fb24ebd479273f2d0eeb, type: 3}
     - target: {fileID: 31164925000708571, guid: 55a99ff6ad9aa8446ba4a821c41ada88, type: 3}
       propertyPath: m_TargetTexture
       value: 
-      objectReference: {fileID: 8400000, guid: cdc453ec5cc287242893aae05df64d4a, type: 2}
+      objectReference: {fileID: 8400000, guid: 89d6b27e433164042a675b3d120d3d3f, type: 2}
     - target: {fileID: 741595173293618372, guid: 55a99ff6ad9aa8446ba4a821c41ada88, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

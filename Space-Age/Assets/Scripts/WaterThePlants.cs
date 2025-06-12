@@ -5,8 +5,6 @@ using UnityEngine.Events;
 
 public class WaterThePlants : MonoBehaviour
 {
-
-
     [SerializeField] GameObject Water;
     [SerializeField] MeshRenderer Plant;
     [SerializeField] MeshRenderer Land;
@@ -46,10 +44,6 @@ public class WaterThePlants : MonoBehaviour
             {
                 waterCounter++;
             }
-
-
-
-
         }
     }
 
@@ -60,9 +54,7 @@ public class WaterThePlants : MonoBehaviour
 
             Water.SetActive(true);
             amIWaterCounting = true;
-
         }
-
     }
 
     private void OnTriggerExit(Collider other)
@@ -71,9 +63,6 @@ public class WaterThePlants : MonoBehaviour
         {
             Water.SetActive(false);
             amIWaterCounting = false;
-
         }
-
     }
-
 }
