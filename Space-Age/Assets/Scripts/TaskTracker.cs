@@ -74,7 +74,7 @@ public class TaskTracker : MonoBehaviour
 
         if (entertainmentTask)
         {
-            if (entertaintime >= 4000)
+            if (entertaintime >= 2000)
             {
                 CheckedOff.Invoke();
                 taskTracker ++;

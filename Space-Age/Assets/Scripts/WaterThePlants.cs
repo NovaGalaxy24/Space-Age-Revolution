@@ -33,11 +33,11 @@ public class WaterThePlants : MonoBehaviour
             if (waterCounter >= 1000)
             {
                 waterStop = true;
+                TaskTrack.taskTracker++;
                 Water.SetActive(false);
                 Watered.Invoke();
-                Plant.material = Plantw;
                 Land.material = Landw;
-                TaskTrack.taskTracker ++;
+                Plant.material = Plantw;
 
             }
             else
